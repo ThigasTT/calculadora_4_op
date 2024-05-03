@@ -13,12 +13,14 @@ void main () {
     printf("digite outro numero\n");
     scanf("%d",numero2);
 	
-	printf ("digite qual operação você quer fazer\n");
-	printf("1-adição\n");
-	printf("2-subtração\n");
-	printf("3-multiplicação\n");
-	printf("4-divisão\n");
+	printf ("digite qual operaÃ§Ã£o vocÃª quer fazer\n");
+	printf("0-voltar");
+	printf("1-adiÃ§Ã£o\n");
+	printf("2-subtraÃ§Ã£o\n");
+	printf("3-multiplicaÃ§Ã£o\n");
+	printf("4-divisÃ£o\n");
 	printf("5-sair");
+	
 	
 	switch (opcao) {
 		case 1:
@@ -41,6 +43,6 @@ void main () {
 			printf("encerrando o programa");
 		break;
 }
-	
+	while(opcao)!=0)
 	
 }
