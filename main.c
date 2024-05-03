@@ -28,7 +28,7 @@ void main () {
 			printf("Resultado: %d",resultado);
 			break;
 		case 2:
-			resultado=numero1+numero2;
+			resultado=numero1-numero2;
 			printf("Resultado:%d",resultado);
 			break;
 		case 3:
