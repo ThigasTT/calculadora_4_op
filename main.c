@@ -43,6 +43,6 @@ void main () {
 			printf("encerrando o programa");
 		break;
 }
-	while(opcao)!=0)
+	while(opcao!=0);
 	
 }
