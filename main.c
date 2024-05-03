@@ -20,6 +20,7 @@ void main () {
 	printf("3-multiplicação\n");
 	printf("4-divisão\n");
 	printf("5-sair");
+	scanf("%d"&opcao);
 	
 	
 	switch (opcao) {
@@ -43,6 +44,16 @@ void main () {
 			printf("encerrando o programa");
 		break;
 }
+
+		printf ("digite qual operação você quer fazer\n");
+	printf("0-voltar");
+	printf("1-adição\n");
+	printf("2-subtração\n");
+	printf("3-multiplicação\n");
+	printf("4-divisão\n");
+	printf("5-sair");
+	scanf("%d",&opcao )
+	
 	while(opcao!=0);
 	
 }
