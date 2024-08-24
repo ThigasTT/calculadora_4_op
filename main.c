@@ -14,7 +14,6 @@ void main () {
     scanf("%d",numero2);
 	
 	printf ("digite qual operação você quer fazer\n");
-	printf("0-voltar");
 	printf("1-adição\n");
 	printf("2-subtração\n");
 	printf("3-multiplicação\n");
@@ -54,6 +53,6 @@ void main () {
 	printf("5-sair");
 	scanf("%d",&opcao )
 	
-	}while(opcao==0);
+	}while(opcao!=0);
 	
 }
