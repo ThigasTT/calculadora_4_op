@@ -7,7 +7,7 @@ void main () {
 	int numero2;
 	int resultado;
 	int opcao;
-	
+	do{
 	printf("digite um numero\n");
     scanf("%d",numero1);
     printf("digite outro numero\n");
@@ -54,6 +54,6 @@ void main () {
 	printf("5-sair");
 	scanf("%d",&opcao )
 	
-	while(opcao!=0);
+	}while(opcao==0);
 	
 }
